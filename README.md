@@ -6,19 +6,17 @@
 This version does not include Redux
 [Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
 
-## Quick Start
+## Quick Start -- run these in order
 
 ``` bash
-
-# Run the client & server with concurrently
-yarn run dev
-
-
 # Install dependencies for the backend 
 yarn install
 
 # Install dependencies for both frontend 
 yarn run client-install
+
+# Run the client & server with concurrently
+yarn run dev
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
