@@ -13,8 +13,12 @@ This version does not include Redux
 # Run the client & server with concurrently
 yarn run dev
 
-# Install dependencies for both frontend and backend 
-yarn install-both
+
+# Install dependencies for the backend 
+yarn install
+
+# Install dependencies for both frontend 
+yarn run client-install
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```

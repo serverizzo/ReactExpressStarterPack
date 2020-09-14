@@ -4,9 +4,9 @@
   "description": "Starter kit for creating React and Express apps",
   "main": "server.js",
   "scripts": {
-    "client-install": "cd client && npm install",
-    "server-install": "cd client && npm install",
-    "both-install": "concurrently \"yarn run start\" \"yarn run client\"",
+    "client-install": "cd client && yarn install",
+    "server-install": "yarn install",
+    "install-both": "concurrently \"yarn run client-install\" \"yarn run server-install\"",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "cd client && yarn run start",
