@@ -1,5 +1,3 @@
-# this needs to be updated
-
 # React Express Starter Pack
 
 > Create full stack apps with React and Express. Run your client and server with a single command. 
@@ -11,20 +9,12 @@ This version does not include Redux
 ## Quick Start
 
 ``` bash
-# Install dependencies for server
-npm install
-
-# Install dependencies for client
-npm run client-install
 
 # Run the client & server with concurrently
-npm run dev
+yarn run dev
 
-# Run the Express server only
-npm run server
-
-# Run the React client only
-npm run client
+# Install dependencies for both frontend and backend 
+yarn install-both
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
